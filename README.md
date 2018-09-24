@@ -7,4 +7,4 @@ Pacote de tradução do WPS Office
 04. Altere as permissões da pasta pt_BR para root: sudo chown -Rf root.root /opt/kingsoft/wps-office/office6/mui/pt_BR;
 05. Acesse novamente o WPS e verifique se está em pt_BR.
 
-Teste feito no GNU/Linux Mint 17.3/18.1 instalado como Português-Brasil UTF8.
+Teste feito no GNU/Linux Mint 17.3/18.1/19 instalado como Português-Brasil UTF8.
