@@ -47,7 +47,7 @@ clear
 echo
 #
 echo -e "Instalação do Pacote de Tradução e Dicionário PT-BR do WPS Office no Linux Mint 20.x\n"
-echo -e "Será necessário digitar a senha do seu usuário: $USUARIO que tem direitos administrativos do sudo.\n"
+echo -e "Será necessário digitar a senha do seu usuário: $USUARIO que tem direitos de sudo.\n"
 sleep 5
 #
 # opção do comando: echo: -e (interpretador de escapes de barra invertida)
@@ -55,7 +55,7 @@ sleep 5
 echo -e "Verificando se o WPS Office 2019 está instalado, aguarde..."
 	if [ -e "$WPSOFFICE" ]
 		then
-			echo -e "O WPS Office 2019 está instalado, tudo OK, continuando com o script..."
+			echo -e "O WPS Office 2019 está instalado, tudo OK, continuando com o script...\n"
 			sleep 5
 	else
 			echo "O WPS Office 2019 não está instalado, instale o WPS Office e depois execute esse script novamente"

@@ -12,7 +12,7 @@ Script foi testado na versão do WPS Office 2019 release 11.1.0.x no Linux Mint 
 
 #02_ Segunda etapa.: Instalar o comando Git:
 
-	sudo apt update<br>
+	sudo apt update
 	sudo apt install git
 
 #03_ Terceira etapa: Clonar o projeto do Github
@@ -25,8 +25,19 @@ Script foi testado na versão do WPS Office 2019 release 11.1.0.x no Linux Mint 
 
 #05_ Quinta etapa..: Executar o script de atualização do Tradutor e Dicionário
 
-	./install.sh
+	bash install.sh
 
 #06_ Abrir o WPS Office e verificar se a tradução está funcionando
 
 	wps
+
+## Procedimentos para corrigir a Falha de Acentuação do WPS Office
+
+#01_ Abrir o WPS Office
+
+	_ na tela inicial do WPS Office clicar em: Global Settings
+	_ selecionar: settings
+	_ em Settings Other clicar em: Settings Other Options Popup Component
+	_ alterar para: Multi-Module Mode <OK>
+	_ na tela de Restart WPS to see changes clicar em: <OK>
+	_ Fechar o WPS Office e testar a acentuação no Write e Spreadsheets
