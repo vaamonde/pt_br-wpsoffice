@@ -6,20 +6,25 @@ Script foi testado na versão do WPS Office 2019 release 11.1.0.x no Linux Mint 
 
 ## Procedimentos para utilizar esse script:
 
-#01_ Primeira etapa: Acessar o Terminal<br>
+#01_ Primeira etapa: Acessar o Terminal
+
 	Atalho: Ctrl + Alt + T
 
-#02_ Segunda etapa.: Instalar o comando Git:<br>
+#02_ Segunda etapa.: Instalar o comando Git:
+
 	sudo apt update<br>
 	sudo apt install git
 
-#03_ Terceira etapa: Clonar o projeto do Github<br>
+#03_ Terceira etapa: Clonar o projeto do Github
+
 	git clone https://github.com/vaamonde/pt_br-wpsoffice
 
-#04_ Quarta etapa..: Acessar o repositório clonado localmente<br>
+#04_ Quarta etapa..: Acessar o repositório clonado localmente
+
 	cd pt_br-wpsoffice/
 
-#05_ Quinta etapa..: Executar o script de atualização do Tradutor e Dicionário<br>
+#05_ Quinta etapa..: Executar o script de atualização do Tradutor e Dicionário
+
 	./install.sh
 
-#06_ Abrir o WPS Office e verificar se a tradução está funcionando<br>
+#06_ Abrir o WPS Office e verificar se a tradução está funcionando
