@@ -28,3 +28,5 @@ Script foi testado na versão do WPS Office 2019 release 11.1.0.x no Linux Mint 
 	./install.sh
 
 #06_ Abrir o WPS Office e verificar se a tradução está funcionando
+
+	wps
