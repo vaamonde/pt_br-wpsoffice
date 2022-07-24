@@ -43,6 +43,8 @@ Script foi testado na versão do WPS Office 2019 release 11.1.0.x no Linux Mint 
 #01_ Primeira etapa: Acessar o Terminal
 
 	Atalho: Ctrl + Alt + T
+	localectl
+	cat /etc/os-release
 
 #02_ Segunda etapa.: Instalar o comando Git:
 
