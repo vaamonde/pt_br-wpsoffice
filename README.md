@@ -61,11 +61,11 @@ Script foi testado na versão do WPS Office 2019 release 11.1.0.x no Linux Mint 
 
 	bash install.sh
 
-#06_ Abrir o WPS Office e verificar se a tradução está funcionando
+#06_ Abrir o WPS Office e verificar se a Tradução e o Dicionário está funcionando
 
 	wps
 
-## Procedimentos para corrigir a Falha de Acentuação do WPS Office
+## Procedimentos para corrigir a Falha de Acentuação do WPS Office 2019 no Linux Mint
 
 #01_ Abrir o WPS Office
 
