@@ -1,5 +1,39 @@
 # Pacote de Tradução e Dicionário do WPS Office 2019 para o Linux Mint 20.x
 
+## 💰 Ajude o projeto Bora para Prática a continuar fazendo vídeos e materiais gratuitos para o Canal do YouTUBE
+## 💰 Chave PIX do projeto: robsonvaamonde@gmail.com
+## 💰 Link de doação do PagSeguro: https://pag.ae/bjlSJcH
+## 💰 Link de doação do Paypal: https://www.paypal.com/donate/?hosted_button_id=EALLB7DQ3U6H2
+
+Robson Vaamonde<br>
+Procedimentos em TI: http://procedimentosemti.com.br<br>
+Bora para Prática: http://boraparapratica.com.br<br>
+Robson Vaamonde: http://vaamonde.com.br<br>
+Facebook Procedimentos em TI: https://www.facebook.com/ProcedimentosEmTi<br>
+Facebook Bora para Prática: https://www.facebook.com/boraparapratica<br>
+Instagram Procedimentos em TI: https://www.instagram.com/procedimentoem<br>
+YouTUBE Bora Para Prática: https://www.youtube.com/boraparapratica<br>
+Linkedin Robson Vaamonde: https://www.linkedin.com/in/robson-vaamonde-0b029028/<br>
+Github Procedimentos em TI: https://github.com/vaamonde<br>
+
+<div align="center">
+<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/vaamonde/pt_br-wpsoffice?style=plastic">
+<a href="https://github.com/vaamonde/pt_br-wpsoffice/stargazers"><img src="https://img.shields.io/github/stars/vaamonde/pt_br-wpsoffice" alt="Stars Badge"/></a>
+<a href="https://github.com/vaamonde/pt_br-wpsoffice/network/members"><img src="https://img.shields.io/github/forks/vaamonde/pt_br-wpsoffice" alt="Forks Badge"/></a>
+<a href="https://github.com/vaamonde/dpt_br-wpsoffice/pulls"><img src="https://img.shields.io/github/issues-pr/vaamonde/pt_br-wpsoffice" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/vaamonde/pt_br-wpsoffice/issues"><img src="https://img.shields.io/github/issues/vaamonde/pt_br-wpsoffice" alt="Issues Badge"/></a>
+<a href="https://github.com/vaamonde/pt_br-wpsoffice/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/vaamonde/pt_br-wpsoffice?color=2b9348"></a>
+<a href="https://github.com/vaamonde/pt_br-wpsoffice/blob/master/LICENSE"><img src="https://img.shields.io/github/license/vaamonde/pt_br-wpsoffice?color=2b9348" alt="License Badge"/></a>
+</div>
+
+## **Links Oficiais do Linux Mint e do WPS Office:**
+Site do Linux Mint: https://www.linuxmint.com/​<br>
+Blog do Linux Mint: https://blog.linuxmint.com/​<br>
+Site do WPS Office: https://www.wps.com/
+
+## **Playlist do YouTUBE com todos os Vídeos do Linux Mint 20.x:**
+Link da Playlist: https://www.youtube.com/playlist?list=PLozhsZB1lLUOKXT6TIhjwPWBNpUoExsNF
+
 O pacote de Tradução e Dicionário do WPS Office 2019 para o Linux Mint 20.x foi retirado da versão do WPS Office para Windows. Infelizmente a comunidade que era responsável pela tradução e o dicionário da versão Community do WPS Office para GNU/Linux não está mais disponibilizando no site oficial do WPS Office.
 
 Script foi testado na versão do WPS Office 2019 release 11.1.0.x no Linux Mint 20.x, antes de executar o script faça a instalação e configuração básica do Pacote .DEB do WPS Office 2019 do site oficial: https://www.wps.com/
