@@ -5,8 +5,8 @@
 # Facebook: facebook.com/BoraParaPratica
 # YouTube: youtube.com/BoraParaPratica
 # Data de criação: 23/07/2022
-# Data de atualização: 23/07/2022
-# Versão: 0.01
+# Data de atualização: 25/07/2022
+# Versão: 0.02
 # Testado e homologado para a versão do Linux Mint 20.1 Ulyssa, 20.2 Uma, 23.3 Una x64
 # Testado e homologado para a versão do WPS Office 2019 release 11.1.0.x
 #
@@ -33,10 +33,11 @@ USUARIO=$(echo $USER)
 # opção da variável de ambiente $0: nome do comando ou script digitado
 LOG="$HOME/$(echo $0 | cut -d'/' -f2)"
 #
-# Declarando as variáveis de instalação do WPS Office 2019
+# Declarando as variáveis de instalação do WPS Office 2019 no Linux Mint
 WPSOFFICE="/opt/kingsoft/wps-office/office6"
 WPSOFFICEMUI="$WPSOFFICE/mui"
 WPSOFFICEDICTS="$WPSOFFICE/dicts"
+WPSOFFICEADDONS="$WPSOFFICE/addons"
 #
 # opção do comando echo: -e (enable interpretation of backslash escapes), \n (new line)
 # $0 (variável de ambiente do nome do comando)
@@ -90,6 +91,13 @@ echo -e "Atualizando o diretório de Dicionário do WPS Office, aguarde..."
 	# opção do comando cp: -R (recursive), -v (verbose)
 	sudo cp -Rv dicts/ $WPSOFFICE/ &>> $LOG
 echo -e "Diretório de Dicionário atualizado com sucesso!!!, continuando com o script...\n"
+sleep 5
+#
+echo -e "Atualizando o diretório de Addons do WPS Office, aguarde..."
+	# opção do redirecionador &>>: Redireciona a saída padrão (STDOUT) anexando
+	# opção do comando cp: -R (recursive), -v (verbose)
+	sudo cp -Rv addons/ $WPSOFFICE/ &>> $LOG
+echo -e "Diretório de Addons atualizado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Instalação do Pacote de Tradução e Dicionário PT-BR do WPS Office feita com Sucesso!!!."
