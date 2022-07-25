@@ -93,12 +93,12 @@ echo -e "Atualizando o diretório de Dicionário do WPS Office, aguarde..."
 echo -e "Diretório de Dicionário atualizado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
-#echo -e "Atualizando o diretório de Addons do WPS Office, aguarde..."
+echo -e "Atualizando o diretório de Addons do WPS Office, aguarde..."
 	# opção do redirecionador &>>: Redireciona a saída padrão (STDOUT) anexando
 	# opção do comando cp: -R (recursive), -v (verbose)
-#	sudo cp -Rv addons/ $WPSOFFICE/ &>> $LOG
-#echo -e "Diretório de Addons atualizado com sucesso!!!, continuando com o script...\n"
-#sleep 5
+	sudo cp -Rv addons/ $WPSOFFICE/ &>> $LOG
+echo -e "Diretório de Addons atualizado com sucesso!!!, continuando com o script...\n"
+sleep 5
 #
 echo -e "Instalação do Pacote de Tradução e Dicionário PT-BR do WPS Office feita com Sucesso!!!."
 	# script para calcular o tempo gasto (SCRIPT MELHORADO, CORRIGIDO FALHA DE HORA:MINUTO:SEGUNDOS)
