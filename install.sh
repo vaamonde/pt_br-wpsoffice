@@ -65,25 +65,11 @@ echo -e "Verificando se o WPS Office 2019 está instalado, aguarde..."
 			sleep 5
 	fi
 #
-echo -e "Removendo o diretório de Tradução do WPS Office, aguarde..."
-	# opção do redirecionador &>>: Redireciona a saída padrão (STDOUT) anexando
-	# opção do comando rm: -R (recursive), -f (force), -v (verbose)
-	sudo rm -Rfv $WPSOFFICEMUI &>> $LOG
-echo -e "Diretório de Tradução removido com sucesso!!!, continuando com o script...\n"
-sleep 5
-#
 echo -e "Atualizando o diretório de Tradução do WPS Office, aguarde..."
 	# opção do redirecionador &>>: Redireciona a saída padrão (STDOUT) anexando
 	# opção do comando cp: -R (recursive), -v (verbose)
 	sudo cp -Rv mui/ $WPSOFFICE/ &>> $LOG
 echo -e "Diretório de Tradução atualizado com sucesso!!!, continuando com o script...\n"
-sleep 5
-#
-echo -e "Removendo o diretório de Dicionário do WPS Office, aguarde..."
-	# opção do redirecionador &>>: Redireciona a saída padrão (STDOUT) anexando
-	# opção do comando rm: -R (recursive), -f (force), -v (verbose)
-	sudo rm -Rfv $WPSOFFICEDICTS &>> $LOG
-echo -e "Diretório de Dicionário removido com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Atualizando o diretório de Dicionário do WPS Office, aguarde..."
