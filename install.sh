@@ -38,7 +38,7 @@ WPSOFFICE="/opt/kingsoft/wps-office/office6"
 WPSOFFICEMUI="$WPSOFFICE/mui"
 WPSOFFICEDICTS="$WPSOFFICE/dicts"
 WPSOFFICEADDONS="$WPSOFFICE/addons"
-WPSOFFICELOCAL="~/.local/share/Kingsoft/office6"
+WPSOFFICELOCAL="/home/$USER/.local/share/Kingsoft/office6"
 #
 # opção do comando echo: -e (enable interpretation of backslash escapes), \n (new line)
 # $0 (variável de ambiente do nome do comando)
