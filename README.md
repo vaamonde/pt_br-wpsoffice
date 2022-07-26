@@ -36,6 +36,9 @@ Site do Libre Office: https://pt-br.libreoffice.org/<br>
 Site do Free Office.: https://www.freeoffice.com/pt/<br>
 Site do Only Office.: https://www.onlyoffice.com/pt/
 
+## **Pacote de Dicionário Customizado para o WPS Office:**
+Github: https://raw.githubusercontent.com/rafaelsc/IntelliJ.Portuguese.Brazil.Dictionary/master/portuguese-brazil.dic 
+
 ## **Playlist do YouTUBE com todos os Vídeos do Linux Mint 20.x:**
 Link da Playlist: https://www.youtube.com/playlist?list=PLozhsZB1lLUOKXT6TIhjwPWBNpUoExsNF
 
