@@ -1,0 +1,55 @@
+' Início do código em VBA (Visual Basic for Application) Tela Cheia
+
+' Criando o procedimento LigarTelaCheia
+Sub LigarTelaCheia()
+    ' Ocultar todas as guias do menu
+    Application.ExecuteExcel4Macro "SHOW.TOOLBAR(""Ribbon"",False)"
+    ' Ocultar a barra de fórmulas
+    Application.DisplayFormulaBar = False
+    ' Ocultar a barra de status, disposta ao final da planilha
+    Application.DisplayStatusBar = False
+	' Ocultar o cabeçalho do Excel
+    ActiveWindow.DisplayHeadings = False
+    ' Mostrar o novo nome do Cabeçalho
+    Application.Caption = "Macros com VBA SENAC Tatuapé"
+    ' Ocultar a barra horizontal
+    ActiveWindow.DisplayHorizontalScrollBar = False
+    ' Ocultar a barra vertical
+    ActiveWindow.DisplayVerticalScrollBar = False
+    ' Ocultar as guias das planilhas
+    ActiveWindow.DisplayWorkbookTabs = False
+    ' Ocultar os títulos de linha e coluna
+    ActiveWindow.DisplayHeadings = False
+    ' Ocultar os valores zero na planilha
+    ActiveWindow.DisplayZeros = False
+    ' Ocultar as linhas de grade da planilha
+    ActiveWindow.DisplayGridlines = False
+End Sub
+
+' Criando o procedimento DesligarTelaCheia
+Sub DesligarTelaCheia()
+    ' Montrar todas as guias do menu
+    Application.ExecuteExcel4Macro "SHOW.TOOLBAR(""Ribbon"",True)"
+    ' Mostrar a barra de fórmulas
+    Application.DisplayFormulaBar = True
+    ' Mostrar a barra de status, disposta ao final da planilha
+    Application.DisplayStatusBar = True
+    ' Mostrar o nome do Excel
+    ActiveWindow.DisplayHeadings = True
+    ' Mostrar o nome do Excel e Mostrar o novo nome
+    Application.Caption = ""
+    ' Mostrar a barra horizontal
+    ActiveWindow.DisplayHorizontalScrollBar = True
+    ' Mostrar a barra vertical
+    ActiveWindow.DisplayVerticalScrollBar = True
+    ' Mostrar as guias das planilhas
+    ActiveWindow.DisplayWorkbookTabs = True
+    ' Mostrar os títulos de linha e coluna
+    ActiveWindow.DisplayHeadings = True
+    ' Mostrar os valores zero na planilha
+    ActiveWindow.DisplayZeros = True
+    ' Mostrar as linhas de grade da planilha
+    ActiveWindow.DisplayGridlines = True
+End Sub
+
+' Fim do código em VBA (Visual Basic for Application) de Imprimir

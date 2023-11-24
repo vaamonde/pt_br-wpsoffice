@@ -1,0 +1,23 @@
+' Início do código em VBA (Visual Basic for Application) de Salvar e Sair
+
+' Criando o procedimento Salvar
+Sub Salvar()
+	' Salvar a pasta de trabalho (todas as planilhas)
+	ActiveWorkbook.Save
+End Sub
+
+' Criando o procedimento SalvarSair
+Sub SalvarSair()
+	' Salvar a pasta de trabalho (todas as planilhas)
+	ActiveWorkbook.Save
+	' Sair do Microsoft Excel
+	Application.Quit
+End Sub
+
+' Criando o procedimento Sair
+Sub Sair()
+	' Sair do Microsoft Excel
+	Application.Quit
+End Sub
+
+' Fim do código em VBA (Visual Basic for Application) de Salvar e Sair

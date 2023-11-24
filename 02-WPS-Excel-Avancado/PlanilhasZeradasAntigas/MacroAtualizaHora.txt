@@ -1,0 +1,24 @@
+' Inicio codigo
+
+Dim Go As Boolean
+
+' Criando a Macro de Iniciar o Relógio
+Sub StartClock()
+Go = True
+MyClock
+End Sub
+
+' Laço de Loop para atualizar o Relogio em segundos
+Sub MyClock()
+If Go Then
+ActiveSheet.Calculate
+Application.OnTime Now() + TimeValue("00:00:01"), "MyClock"
+End If
+End Sub
+
+' Criando a Macro de Parar o Relógio
+Sub StopClock()
+Go = False
+End Sub
+
+' Fim codigo

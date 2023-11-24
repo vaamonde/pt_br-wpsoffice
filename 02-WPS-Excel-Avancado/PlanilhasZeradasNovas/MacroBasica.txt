@@ -1,0 +1,90 @@
+#Procedimento Macro Básica
+_01 - Selecionar a célula A1 da Planilha Macro Básica;
+_02 - Na guia Desenvolvedor, Gravar nova Macro;
+_03 - Nome da Macro: MacroBasica;
+_04 - Selecionar a célula: B2 - Delete;
+_05 - Selecionar a célula: I2 - Delete;
+_06 - Selecionar a célula: I11 - Delete;
+_07 - Selecionar a célula: B11 - Delete;
+_08 - Selecionar a célula: B2 - Digitar 10;
+_09 - Selecionar a célula: I2 - Digitar 20;
+_10 - Selecionar a célula: I11 - Digitar 30;
+_11 - Selecionar a célula: B11 - Digitar 40;
+_12 - Clicar na célula: K2;
+_13 - Selecionar as células: K2 até N2;
+_14 - Pressionar: Ctrl C;
+_15 - Selecionar a célula: K7
+_16 - Pressionar: Ctrl + Shift + V;
+_17 - Selecionar a opção: Valores - <OK>;
+_18 - Clicar na célula A1:
+_19 - Parar a Gravação da Macro na célula A1;
+_20 - Testar a Macro.
+
+#Procedimento Macro Sem Referência Relativa
+_01 - Selecionar a célula A1 da Planilha Básico de Referência Relativa;
+_02 - Na guia Desenvolvedor, Gravar nova Macro;
+_03 - Nome da Macro: SemReferencia;
+_04 - Clicar na célula B3;
+_05 - Pressionar: Ctrl + Setinha para Direita;
+_06 - Pressionar: Ctrl + Setinha para Direita (Novamente);
+_07 - Pressionar: Ctrl + Setinha para Esquerda;
+_08 - Pressionar: Setinha para direita;
+_09 - Digitar o Valor: 3 <Tab>;
+_10 - Clicar na célula A1:
+_11 - Parar a Gravação da Macro na célula A1;
+_12 - Testar a Macro.
+
+#Procedimento Macro Com Referência Relativa
+_01 - Selecionar a célula A1 da Planilha Básico de Referência Relativa;
+_02 - Na guia Desenvolvedor, Gravar nova Macro;
+_03 - Nome da Macro: ComReferencia;
+_04 - Clicar na célula B7;
+_05 - CUIDADO: Habilitar: Usar Referência Relativa;
+_06 - CUIDADO: Pressionar: Ctrl + Setinha para Direita;
+_07 - CUIDADO: Pressionar: Ctrl + Setinha para Direita (Novamente);
+_08 - CUIDADO: Pressionar: Ctrl + Setinha para Esquerda;
+_09 - CUIDADO: Pressionar: Setinha para direita;
+_10 - CUIDADO: Desabilitar: Usar Referência Relativa;
+_11 - Digitar o Valor: 3 <Tab>;
+_12 - Clicar na célula A1:
+_13 - Parar a Gravação da Macro na célula A1;
+_14 - Testar a Macro.
+
+#Procedimento Macro Vendas Mariska
+_01 - Selecionar a célula A1 da Planilha Vendas Mês;
+_02 - Na guia Desenvolvedor, Gravar nova Macro;
+_03 - Nome da Macro: VendasMes;
+_04 - Clicar na Planilha Vendas Semestral;
+_05 - Clicar na célula A1;
+_06 - Clicar na célula C4 (Primeiro Rótulo Mês/Ano);
+_07 - Selecionar as células: C4 até C11;
+_08 - Pressionar: Ctrl + X (Recortar);
+_09 - Clicar na Planilha Histórico de Vendas;
+_10 - Clicar na célula A1;
+_11 - Clicar na célula B2 (Rótulo Item)
+_12 - CUIDADO: Habilitar: Usar Referência Relativa;
+_13 - CUIDADO: Pressionar: Ctrl + Setinha Direita;
+_14 - CUIDADO: Pressionar: Ctrl + Setinha Direita (Novamente);
+_15 - CUIDADO: Pressionar: Ctrl + Setinha Esquerda;
+_16 - CUIDADO: Pressionar: Setinha para Direita;
+_17 - CUIDADO: Desabilitar: Usar Referência Relativa;
+_18 - Pressionar <Enter> para colar os valores (Colar uma vez);
+_19 - Clicar na célula A1;
+_20 - Clicar na Planilha Vendas Semestral;
+_21 - Nas células selecionadas de C4 até C11 pressionar: Ctrl - (Menos | Excluir células);
+_22 - Selecionar a opção: Deslocar células para Esquerda <OK>;
+_23 - Clicar na célula G4 (Último rótulo do Mês/Ano);
+_24 - Fazer uma cópia relativa para a célula H4;
+_25 - Clicar na célula H5;
+_26 - Clicar na Planilha Vendas Mês;
+_27 - Selecionar as células: C4 até C10;
+_28 - Pressionar: Ctrl + C (Copiar);
+_29 - Clicar na Planilha Vendas Semestral;
+_30 - Pressionar <Enter> para colar os valores (Colar uma vez);
+_31 - Clicar na Guia Pagina Inicial;
+_32 - Selecionar Bordas: Todas as Bordas;
+_33 - Clicar na célula A1;
+_34 - Clicar na Planilha Vendas Mês;
+_35 - Clicar na célula A1;
+_36 - Parar a Gravação da Macro na célula A1;
+_37 - Testar a Macro.

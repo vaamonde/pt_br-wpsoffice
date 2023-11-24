@@ -1,0 +1,36 @@
+' Início do código em VBA (Visual Basic for Application) de atualizar Relógio
+
+' Declarando a variável Agora como (As) Booleana (dois valores: 0 ou 1) 
+Dim Agora As Boolean
+
+' Criando a Macro para Iniciar o Relógio
+' Criando o procedimento IniciarRelogio
+Sub IniciarRelogio()
+	' Declarando o valor da variável Agora como verdadeiro (True)
+	Agora = True
+	' Chamando o procedimento MeuRelogio
+	MeuRelogio
+End Sub
+
+' Laço de Loop para atualizar o Relógio a cada 1 segundo
+' Criando o procedimento MeuRelogio
+Sub MeuRelogio()
+	' Se (If) Agora Então (Then)
+	If Agora Then
+		' Ativa o cálculo das células - Função F9
+		ActiveSheet.Calculate
+		' Ativa o agendamento para Agora (Now) e programa para ser executado a cada um segundo
+		' Esse procedimento vai ser executado até o Procedimento IniciarRelogio for Verdadeiro (True)
+		Application.OnTime Now() + TimeValue("00:00:01"), "MeuRelogio"
+	' Fim do Se (If)
+	End If
+End Sub
+
+' Criando a Macro de Parar o Relógio
+' Criando o procedimento PararRelogio
+Sub PararRelogio()
+	' Declarando o valor da variável Agora como Falso (False)
+	Agora = False
+End Sub
+
+' Fim do código em VBA (Visual Basic for Application) de atualizar Relógio

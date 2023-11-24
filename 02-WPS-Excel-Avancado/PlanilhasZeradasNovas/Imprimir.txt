@@ -1,0 +1,9 @@
+' Início do código em VBA (Visual Basic for Application) de Imprimir
+
+' Criando o procedimento Imprimir
+Sub Imprimir()
+	' Imprimindo a planilha ativa na impressora padrão
+    Application.Dialogs(xlDialogPrint).Show
+End Sub
+
+' Fim do código em VBA (Visual Basic for Application) de Imprimir

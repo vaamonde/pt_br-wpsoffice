@@ -1,0 +1,58 @@
+#Procedimento Macro Novo Pedido
+_01 - Selecionar a célula A1 da Planilha FM_Pedido;
+_02 - Na guia Desenvolvedor, Gravar nova Macro;
+_03 - Nome da Macro: NovoPedido;
+_04 - Selecionar a célula: AE8 - Delete;
+_05 - Selecionar a célula: S6 - Delete;
+_06 - Selecionar a célula: G6 - Delete;
+_07 - Selecionar a célula: G4 - delete;
+_08 - Parar a Gravação da Macro na célula G4;
+_09 - Atribuir a Macro no Botão Novo Pedido;
+_10 - Testar a Macro.
+
+#Procedimento Macro Cadastrar Pedido
+_01 - Selecionar a célula A1 da Planilha FM_Pedido;
+_02 - Na guia Desenvolvedor, Gravar nova Macro;
+_03 - Nome da Macro: CadastrarPedido;
+_04 - Clicar na célula A1;
+_05 - Clicar na célula AM2 (Primeiro dado d pedido);
+_06 - Selecionar as células: AM2 até AV2 (Dados do Pedido);
+_07 - Pressionar: Ctrl + C (Copiar);
+_08 - Clicar na Planilha: DB_Vendas;
+_09 - Clicar na célula: B2 (Rótulo Produto);
+_10 - CUIDADO: Habilitar: Usar Referência Relativa;
+_11 - CUIDADO: Pressionar Ctrl + Setinha para Baixo;
+_12 - CUIDADO: Pressionar Ctrl + Setinha para Baixo (Novamente);
+_13 - CUIDADO: Pressionar Ctrl + Setinha para Cima;
+_14 - CUIDADO: Pressionar Setinha para Baixo (Sem o Ctrl);
+_15 - CUIDADO: Pressionar Ctrl + Shift + V;
+_16 - CUIDADO: Selecionar: Valores e <OK>
+_17 - CUIDADO: Desabilitar: Usar Referência Relativa;
+_19 - Clicar na célula A2 (Rótulo ID);
+_20 - CUIDADO: Habilitar: Usar Referência Relativa;
+_21 - CUIDADO: Pressionar Ctrl + Setinha para Baixo;
+_22 - CUIDADO: Fazer a cópia Relativa para a célula de Baixo (+ pretinho);
+_23 - CUIDADO: Desabilitar: Usar Referência Relativa;
+_24 - Clicar na célula A1;
+_25 - Clicar na Planilha FM_Pedido;
+_26 - Clicar na célula A1;
+_27 - Parar a Gravação da Macro na célula A1;
+_28 - Atribuir a Macro no Botão Cadastrar Pedido;
+_29 - Testar a Macro.
+
+#Procedimento Macro Classificar Pedido
+_01 - Selecionar a célula A1 da Planilha DB_Pedido;
+_02 - Na guia Desenvolvedor, Gravar nova Macro;
+_03 - Nome da Macro: ClassificarPedido;
+_04 - Clicar na célula A3 (Primeiro Registro do Rótulo ID);
+_05 - Pressionar Ctrl + Shift + End;
+_06 - CUIDADO: Habilitar: Referência Relativa
+_07 - CUIDADO: Pressionar Ctrl + Shift + Setinha para Baixo;
+_08 - CUIDADO: Desabilitar: Usar Referência Relativa;
+_08 - Clicar na guia Pagina Inicial;
+_09 - Clicar na opção Classificar e Filtrar;
+_10 - Selecionar: Classificar de A a Z;
+_11 - Clicar na célula A1;
+_12 - Parar a Gravação da Macro na célula A1;
+_13 - Atribuir a Macro no Botão Classificar;
+_14 - Testar a Macro.
