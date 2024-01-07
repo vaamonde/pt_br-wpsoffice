@@ -5,10 +5,11 @@
 # Facebook: facebook.com/BoraParaPratica
 # YouTube: youtube.com/BoraParaPratica
 # Data de criação: 23/07/2022
-# Data de atualização: 26/07/2022
-# Versão: 0.03
-# Testado e homologado para a versão do Linux Mint 20.1 Ulyssa, 20.2 Uma, 23.3 Una x64
-# Testado e homologado para a versão do WPS Office 2019 release 11.1.0.x
+# Data de atualização: 07/01/2024
+# Versão: 0.04
+# Testado e homologado para a versão do Linux Mint 20 20 Ulyana, 20.1 Ulyssa, 20.2 Uma e 23.3 Una x64
+# Testado e homologado para a versão do Linux Mint 21 Vanessa, 21.1 Vera, 21.2 Victoria e 21.3 Virginia x64
+# Testado e homologado para a versão do WPS Office 2019 release 11.1.0.x GNU/Linux 
 #
 # WPS Office é uma suíte de escritório escrito em C++ que roda em plataformas Windows, 
 # Linux, Android e iOS. Desenvolvido pelo desenvolvedor de software chinês em Zhuhai, 
@@ -80,18 +81,18 @@ echo -e "Atualizando o diretório de Dicionário do WPS Office, aguarde..."
 echo -e "Diretório de Dicionário atualizado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
-echo -e "Atualizando o diretório de Dicionário Customizado do WPS Office, aguarde..."
-	# opção do redirecionador &>>: Redireciona a saída padrão (STDOUT) anexando
-	# opção do comando cp: -R (recursive), -v (verbose)
-	sudo cp -Rv data/ $WPSOFFICELOCAL/ &>> $LOG
-echo -e "Diretório de Dicionário atualizado com sucesso!!!, continuando com o script...\n"
-sleep 5
-#
 echo -e "Atualizando o diretório de Addons do WPS Office, aguarde..."
 	# opção do redirecionador &>>: Redireciona a saída padrão (STDOUT) anexando
 	# opção do comando cp: -R (recursive), -v (verbose)
 	sudo cp -Rv addons/ $WPSOFFICE/ &>> $LOG
 echo -e "Diretório de Addons atualizado com sucesso!!!, continuando com o script...\n"
+sleep 5
+#
+echo -e "Atualizando o diretório de Dicionário Customizado do WPS Office, aguarde..."
+	# opção do redirecionador &>>: Redireciona a saída padrão (STDOUT) anexando
+	# opção do comando cp: -R (recursive), -v (verbose)
+	sudo cp -Rv data/ $WPSOFFICELOCAL/ &>> $LOG
+echo -e "Diretório de Dicionário atualizado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
 echo -e "Instalação do Pacote de Tradução e Dicionário PT-BR do WPS Office feita com Sucesso!!!."

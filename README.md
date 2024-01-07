@@ -1,4 +1,4 @@
-# Pacote de Tradução e Dicionário do WPS Office 2019 para o Linux Mint 20.x
+# Pacote de Tradução e Dicionário do WPS Office 2023 para o Linux Mint 20.x e 21.x
 
 ## 💰 Ajude o projeto Bora para Prática a continuar fazendo vídeos e materiais gratuitos para o Canal do YouTUBE
 ## 💰 Chave PIX do projeto: robsonvaamonde@gmail.com
@@ -39,7 +39,7 @@ Site do Only Office.: https://www.onlyoffice.com/pt/
 ## **Pacote de Dicionário Customizado para o WPS Office:**
 Github: https://raw.githubusercontent.com/rafaelsc/IntelliJ.Portuguese.Brazil.Dictionary/master/portuguese-brazil.dic 
 
-## **Playlist do YouTUBE com todos os Vídeos do Linux Mint 20.x:**
+## **Playlist do YouTUBE com todos os Vídeos do Linux Mint 20.x e 21.x:**
 Link da Playlist: https://www.youtube.com/playlist?list=PLozhsZB1lLUOKXT6TIhjwPWBNpUoExsNF
 
 O pacote de Tradução e Dicionário do WPS Office 2019 para o Linux Mint 20.x foi retirado da versão do WPS Office para Windows. Infelizmente a comunidade que era responsável pela tradução e o dicionário da versão Community do WPS Office para GNU/Linux não está mais disponibilizando no site oficial do WPS Office os pacotes de tradução e o dicionário.
