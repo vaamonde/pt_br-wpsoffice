@@ -5,8 +5,8 @@
 # Facebook: facebook.com/BoraParaPratica
 # YouTube: youtube.com/BoraParaPratica
 # Data de criação: 23/07/2022
-# Data de atualização: 07/01/2024
-# Versão: 0.04
+# Data de atualização: 28/05/2025
+# Versão: 0.05
 # Testado e homologado para a versão do Linux Mint 20 20 Ulyana, 20.1 Ulyssa, 20.2 Uma e 23.3 Una x64
 # Testado e homologado para a versão do Linux Mint 21 Vanessa, 21.1 Vera, 21.2 Victoria e 21.3 Virginia x64
 # Testado e homologado para a versão do WPS Office 2019 release 11.1.0.x GNU/Linux 
@@ -39,7 +39,7 @@ WPSOFFICE="/opt/kingsoft/wps-office/office6"
 WPSOFFICEMUI="$WPSOFFICE/mui"
 WPSOFFICEDICTS="$WPSOFFICE/dicts"
 WPSOFFICEADDONS="$WPSOFFICE/addons"
-WPSOFFICELOCAL="/home/$USER/.local/share/Kingsoft/office6"
+WPSOFFICELOCAL="/home/$USUARIO/.local/share/Kingsoft/office6"
 #
 # opção do comando echo: -e (enable interpretation of backslash escapes), \n (new line)
 # $0 (variável de ambiente do nome do comando)
@@ -91,7 +91,7 @@ sleep 5
 echo -e "Atualizando o diretório de Dicionário Customizado do WPS Office, aguarde..."
 	# opção do redirecionador &>>: Redireciona a saída padrão (STDOUT) anexando
 	# opção do comando cp: -R (recursive), -v (verbose)
-	sudo cp -Rv data/ $WPSOFFICELOCAL/ &>> $LOG
+	cp -Rv data/ $WPSOFFICELOCAL/ &>> $LOG
 echo -e "Diretório de Dicionário atualizado com sucesso!!!, continuando com o script...\n"
 sleep 5
 #
